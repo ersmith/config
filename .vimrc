@@ -1,7 +1,7 @@
 " Features
 set nocompatible
 filetype indent plugin on       " Inteligent indenting
-sytanx on                       " Turns on syntax highlighting
+syntax on                       " Turns on syntax highlighting
 
 " Must haves
 set hidden
@@ -20,7 +20,7 @@ set laststatus=2
 set confirm
 set visualbell
 set t_vb=
-set mouase=a
+set mouse=a
 set cmdheight=2
 set number
 set notimeout ttimeout ttimeoutlen=200
