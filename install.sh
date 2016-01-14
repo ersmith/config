@@ -19,7 +19,7 @@ touch ~/.bashrc
 
 # Appends the config files which shouldn't be overwritten
 cat ./.bashrc >> ~/.bashrc
-cat ./.profile >> ~/.profile
+cat ./.bash_profile >> ~/.bash_profile
 
 # Performs all the cleanup and removes the directory
 rm -rf "$DIR"
